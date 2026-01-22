@@ -1,3 +1,7 @@
+# python-markdown2
+
+> **[中文文档](README.zh-CN.md) | English Documentation**
+
 Markdown is a light text markup format and a processor to convert that to HTML.
 The originator describes it as follows:
 
@@ -53,7 +57,7 @@ As a module:
     >>> markdown2.markdown("*boo!*")  # or use `html = markdown_path(PATH)`
     u'<p><em>boo!</em></p>\n'
 
-    >>> markdowner = Markdown()
+    >>> markdowner = markdown2.Markdown()
     >>> markdowner.convert("*boo!*")
     u'<p><em>boo!</em></p>\n'
     >>> markdowner.convert("**boom!**")
