@@ -57,7 +57,7 @@ As a module:
     >>> markdown2.markdown("*boo!*")  # or use `html = markdown_path(PATH)`
     u'<p><em>boo!</em></p>\n'
 
-    >>> markdowner = Markdown()
+    >>> markdowner = markdown2.Markdown()
     >>> markdowner.convert("*boo!*")
     u'<p><em>boo!</em></p>\n'
     >>> markdowner.convert("**boom!**")

@@ -39,7 +39,7 @@ Travis-ci.org 测试状态: [![Build Status](https://secure.travis-ci.org/trentm
     >>> markdown2.markdown("*boo!*")  # 或使用 `html = markdown_path(PATH)`
     u'<p><em>boo!</em></p>\n'
 
-    >>> markdowner = Markdown()
+    >>> markdowner = markdown2.Markdown()
     >>> markdowner.convert("*boo!*")
     u'<p><em>boo!</em></p>\n'
     >>> markdowner.convert("**boom!**")
